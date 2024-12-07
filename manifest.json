@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Disease Data Query",
   "version": "1.0",
+  "description": "A Chrome extension to query disease-related data in real-time.",
   "permissions": ["storage", "activeTab"],
   "action": {
     "default_popup": "popup.html",

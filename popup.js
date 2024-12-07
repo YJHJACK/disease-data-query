@@ -82,7 +82,8 @@ function loadQueryFromStorage(query, callback) {
  */
 function displaySupportedDiseases() {
   const supportedDiseases = Object.keys(apiEndpoints).join(", ");
-  document.getElementById("supported-diseases").textContent = `Supported diseases: ${supportedDiseases}`;
+  document.getElementById("supported-diseases").textContent = 
+  `Supported diseases: ${supportedDiseases}`;
 }
 
 /**
