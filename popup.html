@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disease Data Query</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h3>Disease Data Query</h3>
+  <input type="text" id="query" placeholder="Enter disease name">
+  <div>
+    <button id="search">Search</button>
+    <button id="refresh">Refresh Data</button>
+  </div>
+  <div id="supported-diseases-container">
+    <p><strong>Supported Diseases:</strong></p>
+    <p id="supported-diseases"></p>
+  </div>
+  <div id="result" style="margin-top: 20px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
+    <p>Results will appear here.</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
